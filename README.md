@@ -29,7 +29,7 @@ This repository contains the source code for the Firefox version. If compatible 
 2. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
 3. Click "Load Temporary Add-on" and select the `manifest.json` file from the `firefox/` folder (or the root if not using subfolders).
 4. The extension will load temporarily (until browser restart). For permanent installation, use Firefox Developer Edition or use a signed version.
-https://addons.mozilla.org/en-US/firefox/addon/ai-swarm/
+   https://addons.mozilla.org/en-US/firefox/addon/ai-swarm/
 
 ## Usage
 1. Install the extension as described above.
