@@ -7,8 +7,6 @@ A Firefox extension that opens 5 AI sites quickly (grok.com, gemini.google.com/a
 ## About
 AI Swarm is a simple yet powerful browser extension designed to streamline access to multiple AI chat interfaces. With one click, it opens new tabs for Grok, Gemini, ChatGPT, Perplexity, and Claude. It supports passing a user-entered question directly via URL parameters where supported by the sites, and always copies the question to your clipboard for easy pasting. Ideal for quick AI queries, research, or comparing responses across platforms. No data collection or tracking—everything happens client-side.
 
-This repository contains the source code for the Firefox version. If compatible with Chrome, see the Differences section below.
-
 ## Features
 - Opens five popular AI sites in new tabs: Grok (grok.com), Gemini (gemini.google.com/app), ChatGPT (chatgpt.com), Perplexity (www.perplexity.ai/search), and Claude (claude.ai/new).
 - Automatically passes a question via `/?q=` URL parameter (if the site supports it).
@@ -34,12 +32,9 @@ This repository contains the source code for the Firefox version. If compatible 
 ## Usage
 1. Install the extension as described above.
 2. Click the extension icon in your toolbar to open the popup.
-3. Enter your question in the input field (if the extension has a popup; based on description, it may directly open tabs—check manifest for details).
+3. Enter your question in the input field.
 4. Click the button to trigger: It will open 5 new tabs, pass the question via URL where possible, and copy it to your clipboard.
 5. Paste the question manually on sites that don't auto-load it.
-
-## Differences Between Versions (If Cross-Browser)
-- This is primarily a Firefox extension. For Chrome, you may need to adjust the manifest (e.g., remove `browser_specific_settings`) and change
 
 ## License
 This project is licensed under the MIT License.
