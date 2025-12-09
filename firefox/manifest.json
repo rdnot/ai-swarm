@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "AI Swarm",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Open AI sites quickly. Copies question to clipboard for manual pasting.",
   "icons": {
     "16": "icon_16.png",
@@ -9,7 +9,7 @@
     "48": "icon_48.png",
     "128": "icon_128.png"
   },
-  "permissions": ["tabs", "clipboardWrite"],
+  "permissions": ["clipboardWrite"],
   "browser_specific_settings": {
     "gecko": {
       "id": "ai-swarm@yourdomain.com",
@@ -27,4 +27,5 @@
   "background": {
     "scripts": ["background.js"]
   }
+
 }
